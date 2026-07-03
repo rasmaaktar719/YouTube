@@ -1,4 +1,4 @@
-enable-module-update = true # set this to false if you do not want to receive updates for the module
+enable-module-update = false # set this to false if you do not want to receive updates for the module
 parallel-jobs = 1
 
 # add 'enabled = false' for not patching a specific app or remove it from the config
@@ -31,6 +31,7 @@ uptodown-dlurl = "https://youtube-music.en.uptodown.com/android"
 archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.apps.youtube.music"
 
 [Music-Morphe]
+enable = false
 app-name = "Music"
 patches-source = "MorpheApp/morphe-patches"
 cli-source = "MorpheApp/morphe-cli"
@@ -42,6 +43,7 @@ uptodown-dlurl = "https://youtube-music.en.uptodown.com/android"
 archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.apps.youtube.music"
 
 [Reddit-Morphe]
+enabled = false
 app-name = "Reddit"
 rv-brand = "Morphe"
 build-mode = "both"
@@ -70,6 +72,17 @@ version = "6.80.0.626848411"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/photos/"
 uptodown-dlurl = "https://google-photos.en.uptodown.com/android"
 archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.apps.photos"
+
+[GooglePhotos-Devanced]
+patches-source = "RookieEnough/De-Vanced"
+cli-source = "MorpheApp/morphe-cli"
+rv-brand = "De-Vanced"
+build-mode = "apk"
+arch = "both"
+apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/photos/"
+uptodown-dlurl = "https://google-photos.en.uptodown.com/android"
+archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.apps.photos"
+included-patches = "'com.google.android.apps.photos.nexus_preload' 'com.google.android.apps.photos.NEXUS_PRELOAD' 'com.google.android.feature.PIXEL_2021_EXPERIENCE' 'com.google.android.feature.PIXEL_2022_EXPERIENCE'"
 
 [Twitch]
 enabled = false
