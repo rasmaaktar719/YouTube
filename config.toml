@@ -68,16 +68,17 @@ include-stock = "split"
 [GooglePhotos]
 build-mode = "both"
 arch = "both"
-version = "6.80.0.626848411"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/photos/"
 uptodown-dlurl = "https://google-photos.en.uptodown.com/android"
 archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.apps.photos"
 
-[GooglePhotos-Devanced]
-patches-source = "RookieEnough/De-Vanced"
-cli-source = "MorpheApp/morphe-cli"
-rv-brand = "De-Vanced"
-build-mode = "apk"
+[GooglePhotos-Revanced]
+appname = "Photos"
+version = "7.82.0.937646388"
+patches-source = "Revanced/revanced-patcher"
+cli-source = "Revanced/revanced-cli"
+rv-brand = "Revanced"
+build-mode = "both"
 arch = "both"
 apkmirror-dlurl = "https://www.apkmirror.com/apk/google-inc/photos/"
 uptodown-dlurl = "https://google-photos.en.uptodown.com/android"
