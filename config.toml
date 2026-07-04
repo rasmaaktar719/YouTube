@@ -31,7 +31,7 @@ uptodown-dlurl = "https://youtube-music.en.uptodown.com/android"
 archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.apps.youtube.music"
 
 [Music-Morphe]
-enable = false
+enabled = false
 app-name = "Music"
 patches-source = "MorpheApp/morphe-patches"
 cli-source = "MorpheApp/morphe-cli"
@@ -75,8 +75,8 @@ archive-dlurl = "https://archive.org/download/jhc-apks/apks/com.google.android.a
 [GooglePhotos-Revanced]
 appname = "Photos"
 version = "7.82.0.937646388"
-patches-source = "Revanced/revanced-patcher"
-cli-source = "Revanced/revanced-cli"
+patches-source = "RookieEnough/patches-1.0.4.mpp"
+cli-source = "MorpheApp/morphe-cli"
 rv-brand = "Revanced"
 build-mode = "both"
 arch = "both"
